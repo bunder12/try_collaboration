@@ -7,18 +7,103 @@
     <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 </head>
 <body>
-    <h1>Hello Branch Dev</h1>
-    <p>update pertama</p>
-    <p>update kedua</p>
-    <p>update ketiga</p>
-    <p>update keempat</p>
-    <div p></div>
+    <div a>
+        <h1>Hello Branch Dev</h1>
+        <div container>
+            <div oval>
+                <div b>
+                    <div bl>
+                        <div bl1></div>
+                    </div>
+                    <div br>
+                        <div bl1></div>
+                    </div>
+                </div>
+            </div>
+            <div oval>
+                <div b>
+                    <div bl>
+                        <div bl1></div>
+                    </div>
+                    <div br>
+                        <div bl1></div>
+                    </div>
+                </div>
+            </div>
+            <div oval>
+                <div b>
+                    <div bl>
+                        <div bl1></div>
+                    </div>
+                    <div br>
+                        <div bl1></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <style>
-    [p]{
-    height: 20px;
-    width: 20px;
-    background-color: aqua;
-}
+    *{
+        margin: 0;
+        padding:0;
+    }
+    h1{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    [a]{
+        height: 100vh;
+        width: 100%;
+        background-color: aquamarine;
+    }
+    [container]{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    [oval]{
+        height: 120px;
+        width: 120px;
+        background-color: bisque;
+        border-radius: 100%;
+        position: relative;
+    }
+    [b]{
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    [br]{
+        background-color: white;
+        height: 40px;
+        width: 30px;
+        margin-left: 15px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    [bl]{
+        background-color: white;
+        height: 40px;
+        width: 30px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    [bl1]{
+        width: 10px;
+        height: 10px;
+        background-color: black;
+        border-radius: 100%;
+    }
 </style>
 </html>
